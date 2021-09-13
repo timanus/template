@@ -3,7 +3,6 @@ html, body {
     margin: 0;
     padding: 0;
     font-family: 'Roboto';
-    font-size: medium;
     color: white;
 }
 h1, h2, h3 {
@@ -11,17 +10,34 @@ h1, h2, h3 {
 }
 .main-header {
     width: 100%;
-    height: 200px;
-    background: #3f494e
-}
-.name-logo {
+    background: rgba(0, 0, 0, 0.7);
     display: flex;
     flex-wrap: nowrap;
     align-items: flex-start;
 }
 .main-name {
+    position: relative;
+    margin: 20px 10px;
+    font-size: large;
+}
+.main-name::after {
+    content: '';
+    display: block;
+    position: absolute;
+    background: white;
+    width: 100%;
+    height: 1px;
+    bottom: -12px;
+}
+.main-logo img {
+    width: 100px;
+    height: 100px;
     margin: 10px;
 }
-.name-logo div {
-
+.main-contacts {
+    margin: 10px 10px;
+    display: block;
+    text-decoration: none;
+    color: unset;
 }
+
