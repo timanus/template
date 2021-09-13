@@ -94,6 +94,7 @@ h1, h2, h3 {
 }
 .card-title {
     text-align: center;
+    margin-top: 15px;
 }
 .card-content {
     padding: 15px;
