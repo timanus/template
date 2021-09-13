@@ -46,6 +46,7 @@ h1, h2, h3 {
     width: 100px;
     height: 100px;
     margin: 10px;
+    margin-left: 20px;
 }
 .main-contacts {
     display: inline-block;
