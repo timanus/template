@@ -40,7 +40,7 @@ h1, h2, h3 {
 .main-name {
     position: relative;
     margin: 20px 10px;
-    font-size: x-large;
+    font-size: large;
 }
 .main-logo img {
     width: 100px;
@@ -77,4 +77,71 @@ h1, h2, h3 {
     padding: 10px 5px;
     text-align: center;
 }
-
+.nav-active {
+    background: rgba(0, 0, 0, 0.3);
+}
+.card {
+    width: calc(100% - 20px);
+    margin: 10px auto;
+    border: 1px solid white;
+    box-sizing: border-box;
+}
+.card-img {
+    width: 70px;
+    height: 70px;
+    margin: 5px auto;
+    background: url("./building.jpg") 50%/cover no-repeat;
+}
+.card-title {
+    text-align: center;
+}
+.card-content {
+    padding: 5px;
+    font-size: x-small;
+}
+.extra {
+    width: calc(100% - 20px);
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 10px auto;
+}
+.extra-item {
+    width: 30%;
+    box-sizing: border-box;
+    /*border: 1px solid white;*/
+}
+.extra-img {
+    position: relative;
+    width: 100%;
+    height: 60px;
+}
+.extra-img::after {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 70%;
+    height: 1px;
+    background: white;
+    bottom: -10px;
+    left: 15%;
+}
+.extra-item:nth-child(1) .extra-img {
+    background: url("./extra1.jpg") 50%/cover no-repeat;
+}
+.extra-item:nth-child(2) .extra-img {
+    background: url("./extra2.jpg") 50%/cover no-repeat;
+}
+.extra-item:nth-child(3) .extra-img {
+    background: url("./extra3.webp") 50%/cover no-repeat;
+}
+.extra-text {
+    text-align: center;
+    font-size: xx-small;
+    padding: 10px;
+    padding-top: 15px;
+}
+span {
+    color: #59a4e2
+}
