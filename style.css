@@ -96,8 +96,8 @@ h1, h2, h3 {
     text-align: center;
 }
 .card-content {
-    padding: 5px;
-    font-size: x-small;
+    padding: 15px;
+    font-size: small;
 }
 .extra {
     width: calc(100% - 20px);
